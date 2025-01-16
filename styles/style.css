@@ -1,3 +1,71 @@
-h1{
-    color: green;
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+/* font-family: "Fira Sans", serif; */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* making style in the whole html body section as needed, I use laptop so screen is short , thats why I take 100% width & as per require I use background-size: cover */
+.universal{
+    padding: 31px 160px 50px 160px;
+    width: 100%;
+    background-size: cover;
+}
+/* shared class for hover effect */
+.hv:hover{
+    background-color: aqua;  
+}
+.mt{
+    display: flex;
+    justify-content: space-between;
+}
+#nb{
+    font-size: 18px;
+    font-weight: 600;
+    color: #006A50;
+    padding: 15px 30px;
+    border: 1px solid #006A50;
+    border-radius: 8px;
+}
+.nvh{
+    font-size: 32px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.hero{
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 51px;
+}
+#s{
+    font-size: 24px;
+    font-weight: 500;
+    color: rgba(14, 14, 14, 0.5);
+    margin-bottom: 16px;
+}
+#hh{
+    font-size: 56px;
+    font-weight: bold;
+    color: #0E0E0E;
+}
+.h-btn{
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border-radius: 8px;
+    border: none;
+    margin-top: 24px;
+}
+#im{
+    width: 474px;
+    height: 400px;
+}
+.h-tx{
+    margin: 117px 32px 117px 60px;
+}
+.h-im{
+    margin: 80px 60px 80px 32px;
 }
