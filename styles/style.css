@@ -69,3 +69,65 @@
 .h-im{
     margin: 80px 60px 80px 32px;
 }
+.box{
+    margin-top: 32px;
+    margin-bottom: 32px;
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+.bx1{
+    padding: 32px;
+    background-color: rgba(84, 144, 245, 0.2);
+    border-radius: 16px;
+}
+.TVF{
+    margin-top: 80px;
+}
+.bu{
+    font-size: 16px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 11px 20px;
+    background-color: #5490F5;
+    margin-top: 24px;
+    border-radius: 8px;
+    border: none;
+}
+/* shared class for all paragrapf of first section in main tag */
+.ba{
+    font-size: 16px;
+    font-weight: 400;
+    color: rgba(14, 14, 14, 0.7);
+}
+.dt{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 24px;
+    margin-bottom: 12px;
+}
+/* shared section heading style */
+.common{
+    font-size: 40px;
+    font-weight: bold;
+    color: #0E0E0E;
+    margin-bottom: 24px;
+}
+.DY{
+    background-image: url(../assets/quote-bg.png);
+    background-position: 24px 20px;
+    background-repeat: no-repeat;
+    padding: 48px 24px;
+    background-color: #FFFFFF;
+    box-shadow:5px 5px 30px rgba(14, 14, 14, 0.15);
+    border: 2px solid rgba(14, 14, 14, 0.15);
+    border-radius: 10px;
+}
+.Dr{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgba(14, 14, 14, 0.8);
+    margin-top: 12px;
+    margin-bottom: 4px;
+}
