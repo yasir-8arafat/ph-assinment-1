@@ -12,7 +12,9 @@
 }
 /* shared class for hover effect */
 .hv:hover{
-    background-color: aqua;  
+    transition: 0.4s;
+    background-color: aqua;
+    cursor: pointer; 
 }
 .mt{
     display: flex;
@@ -173,4 +175,82 @@
     width: 408px;
     height: 306px;
     border-radius: 24px;
+}
+.DT{
+    margin-top: 80px;
+    text-align: center;
+}
+.mr{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+.bn{
+    padding: 40px;
+    background-color: #FFFFFF;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+}
+#sz{
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(14, 14, 14, 0.8);
+}
+.exp:hover{
+    background-color: #FFFFFF;
+    cursor: pointer;
+}
+.exp{
+    background-color: #C6E4D6;
+}
+#inp{
+    width: 1032px;
+    height: 64px;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 20px;
+    font-weight: 400;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    text-align: center;
+}
+.ff{
+    padding: 80px 265px;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    text-align: center;
+}
+.inf{
+    margin: 24px 0px;
+    width: 450px;
+    height: 55px;
+    background-color: #FFFFFF;
+    color: rgba(14, 14, 14, 0.3);
+    font-size: 16px;
+    font-weight: 400;
+    border: none;
+    padding-left: 40px;
+    border-radius: 8px 0px 0px 8px; 
+}
+.s5{
+    position: absolute;
+    margin: 24px 0px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #FFFFFF;
+    padding: 17px 34px;
+    background-color: #006A50;
+    border: none;
+    border-radius: 0px 8px 8px 0px;
+}
+.final{
+    margin-top: 80px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #FFFFFF;
+    text-align: center;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    box-shadow: 5px 5px 20px rgba(14, 14, 14, 0.15);
 }
